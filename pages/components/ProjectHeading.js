@@ -8,7 +8,7 @@ const ProjectHeading = () => {
         <Text  fontSize='5xl' color={color}>
             Projects
         </Text>
-        <Divider width="50%"  />
+        <Divider width="30%"  />
         
     </Flex>
   )
