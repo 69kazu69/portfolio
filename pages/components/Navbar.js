@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
    <Flex align="center" justify="space-between" mt = {3} >
-       <Heading ml ={50} color = {color}>PortFolio.</Heading>
+       <Heading ml ={50} color = {color}>PortFolio.✨</Heading>
        <Flex  justify="center" width="100%"> 
         <Button variant="ghost" color = {color}>Home</Button>
         <Button variant="ghost"  color = {color} ml = {10}>Projects</Button>
