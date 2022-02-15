@@ -12,8 +12,10 @@ export default function Home() {
     <div >
     
       <Navbar/>
-    <Flex justify="space-between">
+    <Flex justify="space-evenly">
     <Main />
+    <Image src="img-19 (1).png" boxSize='570px' mt="100"
+     />
     <Social />
     </Flex>
     

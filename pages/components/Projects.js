@@ -2,23 +2,23 @@ import React from 'react'
 import { Flex, Box, useColorModeValue, Text, Divider, Button } from '@chakra-ui/react'
 import { ArrowForwardIcon } from '@chakra-ui/icons'
 import {FiBarChart} from "react-icons/fi"
-
+import {FaGithub} from "react-icons/fa"
 
 const Projects = () => {
-  const bg = useColorModeValue( 'gray.500','gray.900')
-  let color = useColorModeValue("gray.200", "gray.400")
-  let btncolor = useColorModeValue("gray.500", "gray.400")
-  let border = useColorModeValue("gray.900" ,"gray.100")
+  const bg = useColorModeValue( 'gray.700','gray.300')
+  let color = useColorModeValue("gray.200", "gray.900")
+  let btncolor = useColorModeValue("gray.500", "gray.700")
+  let border = useColorModeValue("gray.900" ,"gray.900")
   return (<>
     <Flex justify="center" >
-        <Flex width="100%" height="35vh" mx="50">
+        <Flex direction="column">
           <Box
-          width="33%"
-          borderRadius='xl'
+          width="25vw"
           bg = {bg}
           color ={color}
           boxShadow='dark-lg'
           mr="50"
+          height="35vh"
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
                 <Text mt="5">
@@ -35,12 +35,13 @@ const Projects = () => {
             </Flex>
           </Box>
           <Box
-          width="33%"
-          borderRadius='xl'
+          width="25vw"
           bg = {bg}
           color ={color}
           boxShadow='dark-lg'
-          mr="50"
+        
+          height="35vh"
+          mt={50}
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
                 <Text mt="5">
@@ -48,21 +49,22 @@ const Projects = () => {
                 </Text>
                 <Divider width="80%" colorScheme={border} />
                 <Text fontSize = "xl" m = "5">
-                    Quote Machine
+                    Weather Application
                 </Text>
-                <Text fontSize = "md"  width = "70%"textAlign="center" opacity = "0.7">
-                  I made this mini project using reactjs, bootstrap and some json data.
+                <Text fontSize = "md" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
+                  I made this mini project using reactjs, bootstrap and open weather api.
                 </Text>
                 <Button rightIcon={<ArrowForwardIcon />} width="120px"  my={35} color = {btncolor} variant = "solid" label = "Explore" >Explore</Button>
             </Flex>
           </Box>
-          <Box
-          width="33%"
-          borderRadius='xl'
+           <Box
+          width="25vw"
           bg = {bg}
           color ={color}
           boxShadow='dark-lg'
-          
+          mr="50"
+          height="35vh"
+          mt={50}
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
                 <Text mt="5">
@@ -70,88 +72,90 @@ const Projects = () => {
                 </Text>
                 <Divider width="80%" colorScheme={border} />
                 <Text fontSize = "xl" m = "5">
-                    ToDo Application
+                    Weather Application
                 </Text>
                 <Text fontSize = "md" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
-                  I made this mini project using angular, bootstrap and ng formModules.
+                  I made this mini project using reactjs, bootstrap and open weather api.
                 </Text>
                 <Button rightIcon={<ArrowForwardIcon />} width="120px"  my={35} color = {btncolor} variant = "solid" label = "Explore" >Explore</Button>
             </Flex>
           </Box>
         </Flex>
-       
-    </Flex>
-        <Flex mt="50">
-        <Flex width="100%" height="35vh" mx="50">
+
+        <Flex mt="100" direction="column">
           <Box
-          width="33%"
-          borderRadius='xl'
+          width="25vw"
           bg = {bg}
           color ={color}
           boxShadow='dark-lg'
           mr="50"
+          height="35vh"
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
                 <Text mt="5">
-                  D. Visualisation
+                  {"<> Web </>"}
                 </Text>
                 <Divider width="80%" colorScheme={border} />
                 <Text fontSize = "xl" m = "5">
-                    Chloropleth Map
+                    Weather Application
                 </Text>
                 <Text fontSize = "md" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
-                  I made this mini project using d3js, svg and some json data .
+                  I made this mini project using reactjs, bootstrap and open weather api.
                 </Text>
                 <Button rightIcon={<ArrowForwardIcon />} width="120px"  my={35} color = {btncolor} variant = "solid" label = "Explore" >Explore</Button>
             </Flex>
           </Box>
           <Box
-          width="33%"
-          borderRadius='xl'
+          width="25vw"
           bg = {bg}
           color ={color}
           boxShadow='dark-lg'
           mr="50"
+          height="35vh"
+          mt={50}
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
                 <Text mt="5">
-                D. Visualisation
+                  {"<> Web </>"}
                 </Text>
                 <Divider width="80%" colorScheme={border} />
                 <Text fontSize = "xl" m = "5">
-                    Heat Map
+                    Weather Application
                 </Text>
                 <Text fontSize = "md" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
-                I made this mini project using d3js, svg and some json data .
+                  I made this mini project using reactjs, bootstrap and open weather api.
                 </Text>
                 <Button rightIcon={<ArrowForwardIcon />} width="120px"  my={35} color = {btncolor} variant = "solid" label = "Explore" >Explore</Button>
             </Flex>
           </Box>
-          <Box
-          width="33%"
-          borderRadius='xl'
+           <Box
+          width="25vw"
           bg = {bg}
           color ={color}
           boxShadow='dark-lg'
-          
+          mr="50"
+          height="35vh"
+          mt={50}
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
                 <Text mt="5">
-                  {"Back-end"}
+                  {"<> Web </>"}
                 </Text>
                 <Divider width="80%" colorScheme={border} />
-                <Text fontSize = "xl" mx = "3" my="5">
-                  TimeStamp Microservice
+                <Text fontSize = "xl" m = "5">
+                    Weather Application
                 </Text>
                 <Text fontSize = "md" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
-                  I made this mini project using nodejs, expressjs and replit.
+                  I made this mini project using reactjs, bootstrap and open weather api.
                 </Text>
                 <Button rightIcon={<ArrowForwardIcon />} width="120px"  my={35} color = {btncolor} variant = "solid" label = "Explore" >Explore</Button>
             </Flex>
           </Box>
         </Flex>
+  
        
     </Flex>
+    <Flex justify="center"><Button fontSize ="2xl"  m={20} p ={6}><Text mr="3">Explore </Text>   <FaGithub /></Button></Flex>
     </>
   )
 }

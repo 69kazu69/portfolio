@@ -1,5 +1,6 @@
 import React from 'react'
-import { Box, Divider, Flex, IconButton, useColorModeValue } from '@chakra-ui/react'
+import { Box, Divider, Flex, Heading, useColorModeValue } from '@chakra-ui/react'
+
 
 const Social = () => {
 
@@ -8,7 +9,7 @@ const Social = () => {
     <Flex direction="column" justify="center" align="center" mr={150}>
         <Flex  height="25vh" >
             <Box boxShadow='xl' m={5} bg = {bg} w="10vw" borderRadius="2rem">
-
+              
             </Box>
             <Divider orientation="vertical" h="20vh" mt={5} />
             <Box boxShadow='xl'  m={5} bg = {bg} w="10vw" borderRadius="2rem">
