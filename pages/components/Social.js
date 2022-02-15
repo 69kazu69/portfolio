@@ -7,6 +7,7 @@ const Social = () => {
   let bg = useColorModeValue("gray.200", "gray.900")
   return (
     <Flex direction="column" justify="center" align="center" mr={150}>
+      
         <Flex  height="25vh" >
             <Box boxShadow='xl' m={5} bg = {bg} w="10vw" borderRadius="2rem">
               
