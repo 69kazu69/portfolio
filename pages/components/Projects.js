@@ -16,7 +16,7 @@ const Projects = () => {
 
   const bg = useColorModeValue( 'gray.700','gray.900')
   let color = useColorModeValue("gray.200", "gray.100")
-  let btncolor = useColorModeValue("gray100", "gray.200")
+  let btncolor = useColorModeValue("gray.700", "gray.200")
   let border = useColorModeValue("gray.900" ,"gray.100")
   let MBox = motion(Box)
   let MDivider = motion(Divider)
@@ -26,21 +26,21 @@ const Projects = () => {
 
 
   return (<>
-  <MDivider width="57.4vw" ml ="21.3vw"
+  <MDivider  ml ="19.3vw"
   
 
   initial = {{
     width : 0
   }}
   animate = {{
-     width : "57.4vw"
+     width : "61.4vw"
   }}
   transition = {{
     duration : 1
   }}
   />
     <Flex justify="center" >
-      <MDivider orientation="vertical" mr="5" height="130vh"
+      <MDivider orientation="vertical" mr="5vw" height="130vh"
 
      
 initial = {{
@@ -55,7 +55,7 @@ transition={{
       
       
       />
-        <Flex direction="column" mt={5}>
+        <Flex direction="column" mt={10}>
           <MBox
           width="25vw"
           bg = {bg}
@@ -71,13 +71,23 @@ transition={{
           }}
           animate={{
             width : "25vw",
-            opacity : [0,0, 1]
+            opacity : [0,0, 1],
+            transition :{
+              duration : 2
+            }
           }}
 
-          transition ={{
-            duration : 2
-          }}
- 
+          
+
+
+          whileHover={{ scale: 1.1,
+            transition : {
+              duration :.1
+            } }}
+    whileTap={{ scale: 0.9,
+      transition : {
+        duration :.1
+      } }}
 
 
 
@@ -109,6 +119,15 @@ transition={{
           mt={50}
 
 
+          whileHover={{ scale: 1.1,
+            transition : {
+              duration :.1
+            } }}
+    whileTap={{ scale: 0.9,
+      transition : {
+        duration :.1
+      } }}
+
            
           initial ={{
             width : "0%",
@@ -116,12 +135,13 @@ transition={{
           }}
           animate={{
             width : "25vw",
-            opacity : [0,0, 1]
+            opacity : [0,0, 1],
+            transition :{
+              duration : 2
+            }
           }}
 
-          transition ={{
-            duration : 2
-          }}
+          
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
                 <Text mt="5">
@@ -147,6 +167,15 @@ transition={{
           mt={50}
 
 
+          whileHover={{ scale: 1.1,
+            transition : {
+              duration :.1
+            } }}
+    whileTap={{ scale: 0.9,
+      transition : {
+        duration :.1
+      } }}
+
           
           initial ={{
             width : "0%",
@@ -154,12 +183,13 @@ transition={{
           }}
           animate={{
             width : "25vw",
-            opacity : [0,0, 1]
+            opacity : [0,0, 1],
+            transition :{
+              duration : 2
+            }
           }}
 
-          transition ={{
-            duration : 2
-          }}
+          
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
                 <Text mt="5">
@@ -187,6 +217,15 @@ transition={{
           height="35vh"
 
 
+          whileHover={{ scale: 1.1,
+            transition : {
+              duration :.1
+            } }}
+    whileTap={{ scale: 0.9,
+      transition : {
+        duration :.1
+      } }}
+
           
           initial ={{
             width : "0%",
@@ -194,12 +233,13 @@ transition={{
           }}
           animate={{
             width : "25vw",
-            opacity : [0,0, 1]
+            opacity : [0,0, 1],
+            transition :{
+              duration : 2
+            }
           }}
 
-          transition ={{
-            duration : 2
-          }}
+          
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
                 <Text mt="5">
@@ -224,6 +264,17 @@ transition={{
           height="35vh"
           mt={50}
 
+
+
+          whileHover={{ scale: 1.1,
+            transition : {
+              duration :.1
+            } }}
+    whileTap={{ scale: 0.9,
+      transition : {
+        duration :.1
+      } }}
+
           
           initial ={{
             width : "0%",
@@ -231,12 +282,13 @@ transition={{
           }}
           animate={{
             width : "25vw",
-            opacity : [0,0, 1]
+            opacity : [0,0, 1],
+            transition :{
+              duration : 2
+            }
           }}
 
-          transition ={{
-            duration : 2
-          }}
+          
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
                 <Text mt="5">
@@ -261,6 +313,16 @@ transition={{
           height="35vh"
           mt={50}
 
+
+          whileHover={{ scale: 1.1,
+            transition : {
+              duration :.1
+            } }}
+    whileTap={{ scale: 0.9,
+      transition : {
+        duration :.1
+      } }}
+
           
           initial ={{
             width : "0%",
@@ -268,12 +330,16 @@ transition={{
           }}
           animate={{
             width : "25vw",
-            opacity : [0,0, 1]
+            opacity : [0,0, 1],
+            transition :{
+              duration : 2
+            }
           }}
 
-          transition ={{
-            duration : 2
-          }}
+          whileInView={{ opacity: 1 }}
+  
+
+          
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
                 <Text mt="5">
@@ -307,7 +373,7 @@ transition={{
         />
     </Flex>
     <Flex justify="center" align="center" direction="column">
-      <Divider width="57.4vw"  />
+      <Divider width="61.4vw"  />
       <Button fontSize ="2xl" width ="8vw"  m={20} p ={6}><Text mr="3">Explore </Text>   <FaGithub /></Button></Flex>
     
     </>
