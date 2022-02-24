@@ -90,7 +90,7 @@ transition={{
       } }}
 
 
-
+      
 
 
 
@@ -149,10 +149,10 @@ transition={{
                 </Text>
                 <Divider width="80%" colorScheme={border} />
                 <Text fontSize = "xl" m = "5">
-                    Weather Application
+                    Sign Up Page
                 </Text>
                 <Text fontSize = "md" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
-                  I made this mini project using reactjs, bootstrap and open weather api.
+                  I made this mini project using reactjs, chakra ui and  formik - Yup.
                 </Text>
                 <Button rightIcon={<ArrowForwardIcon />} width="120px"  my={35} color = {btncolor} variant = "solid" label = "Explore" >Explore</Button>
             </Flex>
@@ -176,6 +176,7 @@ transition={{
         duration :.1
       } }}
 
+      
           
           initial ={{
             width : "0%",
@@ -189,6 +190,7 @@ transition={{
             }
           }}
 
+          whileInView={{ opacity: 1 }}
           
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
@@ -197,10 +199,10 @@ transition={{
                 </Text>
                 <Divider width="80%" colorScheme={border} />
                 <Text fontSize = "xl" m = "5">
-                    Weather Application
+                    Url Shortener
                 </Text>
                 <Text fontSize = "md" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
-                  I made this mini project using reactjs, bootstrap and open weather api.
+                  I made this mini project using nodejs, mongodb and expressjs.
                 </Text>
                 <Button rightIcon={<ArrowForwardIcon />} width="120px"  my={35} color = {btncolor} variant = "solid" label = "Explore" >Explore</Button>
             </Flex>
@@ -239,6 +241,7 @@ transition={{
             }
           }}
 
+
           
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
@@ -247,10 +250,10 @@ transition={{
                 </Text>
                 <Divider width="80%" colorScheme={border} />
                 <Text fontSize = "xl" m = "5">
-                    Weather Application
+                    Chloropleth Map
                 </Text>
                 <Text fontSize = "md" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
-                  I made this mini project using reactjs, bootstrap and open weather api.
+                  I made this mini project using javascript, d3js and  topojson.
                 </Text>
                 <Button rightIcon={<ArrowForwardIcon />} width="120px"  my={35} color = {btncolor} variant = "solid" label = "Explore" >Explore</Button>
             </Flex>
@@ -296,10 +299,10 @@ transition={{
                 </Text>
                 <Divider width="80%" colorScheme={border} />
                 <Text fontSize = "xl" m = "5">
-                    Weather Application
+                    HeatMap
                 </Text>
                 <Text fontSize = "md" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
-                  I made this mini project using reactjs, bootstrap and open weather api.
+                  I made this mini project using d3js, javascript and open rest api.
                 </Text>
                 <Button rightIcon={<ArrowForwardIcon />} width="120px"  my={35} color = {btncolor} variant = "solid" label = "Explore" >Explore</Button>
             </Flex>
@@ -347,10 +350,10 @@ transition={{
                 </Text>
                 <Divider width="80%" colorScheme={border} />
                 <Text fontSize = "xl" m = "5">
-                    Weather Application
+                    ToDo Application
                 </Text>
                 <Text fontSize = "md" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
-                  I made this mini project using reactjs, bootstrap and open weather api.
+                  I made this mini project using angular and bootstrap.
                 </Text>
                 <Button rightIcon={<ArrowForwardIcon />} width="120px"  my={35} color = {btncolor} variant = "solid" label = "Explore" >Explore</Button>
             </Flex>

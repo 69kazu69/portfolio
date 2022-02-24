@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box, Divider, Flex, Heading, useColorModeValue } from '@chakra-ui/react'
+import {Box, Divider, Flex, Heading, useColorModeValue, Image } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
 
 
@@ -35,7 +35,7 @@ const Social = () => {
               transition={{
                 duration :.7             }}
             >
-              
+              <Image src ="link.png" />
             </MotionBox>
             <MotionBox boxShadow='xl'  m={5} bg = {bg} w="10vw" borderRadius="2rem"
             
@@ -60,6 +60,7 @@ const Social = () => {
                 duration :.7,
                 delay : .4             }}
             >
+              <Image src="gmail.png" />
 
             </MotionBox>
             <MotionBox boxShadow='xl' m={5} bg = {bg} w="10vw" borderRadius="2rem"
@@ -86,7 +87,7 @@ const Social = () => {
                 duration :.7 , 
               delay :.6       }}
             >
-              
+              <Image src = "replit.png" />
             </MotionBox>
         </Flex>
         <Flex  height="25vh" mr={50} >
@@ -113,6 +114,8 @@ const Social = () => {
               delay : .8           }}
             >
 
+              <Image src="tweet.png" height = "17vh" m ="auto" mt="5"  />
+
             </MotionBox>
             <MotionBox boxShadow='xl' m={5} bg = {bg} w="10vw" borderRadius="2rem"
             
@@ -136,7 +139,7 @@ const Social = () => {
                 duration :.7,
                   delay : 1.2      }}
             >
-
+                <Image src ="dc.png" boxSize = "15vh" m= "6" ml ="7"/>
             </MotionBox>
             <MotionBox boxShadow='xl' m={5} bg = {bg} w="10vw" borderRadius="2rem"
             
@@ -161,7 +164,7 @@ const Social = () => {
                 duration :.7,
                   delay : 1.5     }}
             >
-
+              <Image src="ghl.png" />
             </MotionBox>
         </Flex>
         
