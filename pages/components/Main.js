@@ -5,11 +5,14 @@ import {FaGithub} from "react-icons/fa"
 import {FaLinkedinIn} from "react-icons/fa"
 import {FaGoogle} from "react-icons/fa"
 import {motion} from "framer-motion"
+import { useRouter } from 'next/router'
 
 
 const Main = () => {
   const color = useColorModeValue("gray.600", "white")
   let MFlex = motion(Flex)
+  const router = useRouter()
+
 
   return (
     <>
@@ -32,7 +35,7 @@ const Main = () => {
 
         </div>
         <MFlex align="center">
-          <Button rightIcon={<ArrowForwardIcon />} width="120px" mr = {25} my={25} color = {color} variant = "solid" label = "Explore" >Explore</Button>
+          <Button rightIcon={<ArrowForwardIcon />} width="120px" mr = {25} my={25} color = {color} variant = "solid" label = "Explore" onClick={() => router.push("/projects")}>Explore</Button>
           
     </MFlex>
     <div>

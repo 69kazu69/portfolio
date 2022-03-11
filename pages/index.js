@@ -33,6 +33,7 @@ export default function Home() {
       duration : .5,
       delay:.7
     }}
+    whileHover = {{ scale: 1.1}}
     drag
 
     dragConstraints={{

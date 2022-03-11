@@ -14,10 +14,10 @@ const Projects = () => {
 
 
 
-  const bg = useColorModeValue( 'gray.700','gray.900')
-  let color = useColorModeValue("gray.200", "gray.100")
-  let btncolor = useColorModeValue("gray.700", "gray.200")
-  let border = useColorModeValue("gray.900" ,"gray.100")
+  const bg = useColorModeValue( 'gray.700','gray.800')
+  let color = useColorModeValue("gray.200", "white")
+  let btncolor = useColorModeValue("gray.700", "white")
+  let border = useColorModeValue("gray.900" ,"gray.800")
   let MBox = motion(Box)
   let MDivider = motion(Divider)
 
@@ -101,10 +101,10 @@ transition={{
                 </Text>
                 <Divider width="80%" colorScheme={border} />
                 <Text fontSize = "xl" m = "5">
-                    Weather Application
+                    Quote Machine
                 </Text>
-                <Text fontSize = "md" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
-                  I made this mini project using reactjs, bootstrap and open weather api.
+                <Text fontSize = "lg" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
+                  I made this mini project using reactjs, bootstrap and an open source api.
                 </Text>
                 <Button rightIcon={<ArrowForwardIcon />} width="120px"  my={35} color = {btncolor} variant = "solid" label = "Explore" >Explore</Button>
             </Flex>
@@ -151,7 +151,7 @@ transition={{
                 <Text fontSize = "xl" m = "5">
                     Sign Up Page
                 </Text>
-                <Text fontSize = "md" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
+                <Text fontSize = "lg" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
                   I made this mini project using reactjs, chakra ui and  formik - Yup.
                 </Text>
                 <Button rightIcon={<ArrowForwardIcon />} width="120px"  my={35} color = {btncolor} variant = "solid" label = "Explore" >Explore</Button>
@@ -201,10 +201,10 @@ transition={{
                 <Text fontSize = "xl" m = "5">
                     Url Shortener
                 </Text>
-                <Text fontSize = "md" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
+                <Text fontSize = "lg" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
                   I made this mini project using nodejs, mongodb and expressjs.
                 </Text>
-                <Button rightIcon={<ArrowForwardIcon />} width="120px"  my={35} color = {btncolor} variant = "solid" label = "Explore" >Explore</Button>
+                <Button rightIcon={<ArrowForwardIcon />} width="120px"  my={35} color = {btncolor} variant = "solid"  label = "Explore" >Explore</Button>
             </Flex>
           </MBox>
         </Flex>
@@ -252,7 +252,7 @@ transition={{
                 <Text fontSize = "xl" m = "5">
                     Chloropleth Map
                 </Text>
-                <Text fontSize = "md" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
+                <Text fontSize = "lg" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
                   I made this mini project using javascript, d3js and  topojson.
                 </Text>
                 <Button rightIcon={<ArrowForwardIcon />} width="120px"  my={35} color = {btncolor} variant = "solid" label = "Explore" >Explore</Button>
@@ -301,7 +301,7 @@ transition={{
                 <Text fontSize = "xl" m = "5">
                     HeatMap
                 </Text>
-                <Text fontSize = "md" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
+                <Text fontSize = "lg" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
                   I made this mini project using d3js, javascript and open rest api.
                 </Text>
                 <Button rightIcon={<ArrowForwardIcon />} width="120px"  my={35} color = {btncolor} variant = "solid" label = "Explore" >Explore</Button>
@@ -352,7 +352,7 @@ transition={{
                 <Text fontSize = "xl" m = "5">
                     ToDo Application
                 </Text>
-                <Text fontSize = "md" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
+                <Text fontSize = "lg" mx = "5" width = "70%"textAlign="center" opacity = "0.7">
                   I made this mini project using angular and bootstrap.
                 </Text>
                 <Button rightIcon={<ArrowForwardIcon />} width="120px"  my={35} color = {btncolor} variant = "solid" label = "Explore" >Explore</Button>

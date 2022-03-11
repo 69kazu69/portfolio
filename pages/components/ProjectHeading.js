@@ -10,7 +10,7 @@ const ProjectHeading = () => {
     let MImage = motion(Image)
   return (<>
     <Flex justify="center" align="end" mt = "10" >
-      <MImage src="img-47.png" boxSize="150px" />
+      
         <MText  fontSize='8xl' color={color}
         
         initial = {{
@@ -27,7 +27,7 @@ const ProjectHeading = () => {
         }}
         
         >
-            Projects
+            ✨Projects
         </MText>
         
         
