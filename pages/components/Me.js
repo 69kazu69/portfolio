@@ -34,7 +34,7 @@ const Me = () => {
                 <Divider/>
             </Heading>
             <Text align="center" mt = "5" fontSize = "xl" as="i">
-                Hello! Iam Aanchal, a web developer who likes to creates different stuff in the web. I've great interest in learning about javascript libraries and
+                Hello! Iam Aanchal, a web developer who likes to creates different stuff in the web. I have great interest in learning about javascript libraries and
                 frameworks like reactjs, angular, d3js, bootstrap and many more. Currently I am a university student pursuing Bachelors in  Information Technology at HPU, you can also see some of 
                 my works in the projects section.
             </Text>
