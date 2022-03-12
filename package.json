@@ -1,7 +1,10 @@
 {
   "name": "pf",
   "private": true,
+  "homepage": "https://69kazu69.github.io/portfolio",
   "scripts": {
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
