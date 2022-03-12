@@ -40,7 +40,7 @@ const Projects = () => {
   }}
   />
     <Flex justify="center" >
-      <MDivider orientation="vertical" mr="5vw" height="170vh"
+      <MDivider orientation="vertical" mr="5vw" height="175vh"
 
      
 initial = {{
@@ -440,7 +440,7 @@ transition={{
           </MBox>
         </Flex>
   
-        <MDivider orientation="vertical" ml="5" height="170vh"
+        <MDivider orientation="vertical" ml="5" height="175vh"
         
         initial = {{
           opacity :0
