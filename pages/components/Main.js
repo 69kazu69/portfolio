@@ -39,9 +39,9 @@ const Main = () => {
           
     </MFlex>
     <div>
-    <IconButton variant = "ghost"><FaGithub/></IconButton>
-    <IconButton variant = "ghost"><FaLinkedinIn/></IconButton>
-    <IconButton variant = "ghost"><FaGoogle /></IconButton>
+    <IconButton variant = "ghost" onClick={() => location.href = "https://github.com/69kazu69"} ><FaGithub/></IconButton>
+    <IconButton variant = "ghost" onClick={() => location.href = "https://www.linkedin.com/in/aanchal-walia-85294021a/"}><FaLinkedinIn/></IconButton>
+    <IconButton variant = "ghost" onClick={() => location.href = "mailto:waliaaanchal02@gmail.com"}><FaGoogle /></IconButton>
     </div>
           
     </MFlex>

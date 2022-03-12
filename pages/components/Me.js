@@ -10,19 +10,25 @@ const Me = () => {
 
 
   return (
-    <MFlex h="88vh" w="100%" justify="center" align="center"  direction="column">
+    <MFlex h="88vh" w="100%" justify="center" align="center"  direction="column"
+    
+    initial = {{
+        opacity : 0,
+        scale:0
+    }}
+    animate={{
+        opacity : 1,
+        scale:1
+
+    }}
+    transition={{
+        duration : .7
+    }}>
         <MFlex direction="column" w="60%" align="center" color={color} mb = {100}
         
-        initial = {{
-            opacity: 0,
-            scale: 0
-        }}
-        animate={{
-            opacity: 1,
-            scale:1
-        }}
         
-        transition={{ duration: .5}}>
+        
+        >
             <Heading>
                 About Me
                 <Divider/>
@@ -35,24 +41,13 @@ const Me = () => {
         </MFlex>
         <Text color = "gray.500" fontSize="2xl" as = "i">You Can Contact Me Through :</Text>
         <MFlex mt={5} align="center" 
-        initial = {{
-            opacity : 0,
+        >
             
-        }}
-        animate={{
-            opacity : 1,
-
-        }}
-        transition={{
-            duration : 1
-        }}>
-            
-            <MBox whileHover = {{scale : 1.1}} whileTap = {{scale :.8}} w="80px"  mr={5} ><Image src ="link.png"/></MBox>
-            <MBox whileHover = {{scale : 1.1}} whileTap = {{scale :.8}} w="80px"  mr={5} ><Image src ="gmail.png"/></MBox>
-            <MBox whileHover = {{scale : 1.1}} whileTap = {{scale :.8}} w="80px"  mr={5} ><Image src = "replit.png" /></MBox>
-            <MBox whileHover = {{scale : 1.1}} whileTap = {{scale :.8}} w="80px"  mr={5} ><Image src="tweet.png" /></MBox>
-            <MBox whileHover = {{scale : 1.1}} whileTap = {{scale :.8}} w="80px"  mr={5}><Image src="ghl.png" /></MBox>
-            <MBox whileHover = {{scale : 1.1}} whileTap = {{scale :.8}} w="80px"  ><Image src="dc.png"/></MBox>
+            <MBox whileHover = {{scale : 1.1}} whileTap = {{scale :.8}} w="80px"  mr={10} onClick={() => location.href = "https://www.linkedin.com/in/aanchal-walia-85294021a/"} ><Image src ="link.png"/></MBox>
+            <MBox whileHover = {{scale : 1.1}} whileTap = {{scale :.8}} w="80px"  mr={10} onClick={() => location.href = "mailto:waliaaanchal02@gmail.com"}><Image src ="gmail.png"/></MBox>
+            <MBox whileHover = {{scale : 1.1}} whileTap = {{scale :.8}} w="80px"  mr={10} onClick = {() => {location.href = "https://twitter.com/w_aanchal"}} ><Image src="tweet.png" /></MBox>
+            <MBox whileHover = {{scale : 1.1}} whileTap = {{scale :.8}} w="80px"  mr={10} onClick={() => location.href = "https://github.com/69kazu69"} ><Image src="ghl.png" /></MBox>
+            <MBox whileHover = {{scale : 1.1}} whileTap = {{scale :.8}} w="80px" onClick={() => {location.href = "https://discord.gg/vjusDH6X" }} ><Image src="dc.png"/></MBox>
         </MFlex>
     </MFlex>
   )

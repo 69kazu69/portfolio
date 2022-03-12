@@ -13,6 +13,8 @@ const Social = () => {
       
         <Flex  height="25vh"  >
             <MotionBox boxShadow='xl' my={5} bg = {bg} w="10vw" borderRadius="2rem"
+
+onClick={() => location.href = "https://www.linkedin.com/in/aanchal-walia-85294021a/"}
             
             whileHover={{ scale: 1.1,
             transition : {
@@ -59,6 +61,8 @@ const Social = () => {
               transition={{
                 duration :.7,
                 delay : .4             }}
+
+                onClick={() => location.href = "mailto:waliaaanchal02@gmail.com"}
             >
               <Image src="gmail.png" />
 
@@ -86,6 +90,10 @@ const Social = () => {
               transition={{
                 duration :.7 , 
               delay :.6       }}
+
+              onClick={()=>{
+                location.href = "https://replit.com/@69kazu69"
+              }}
             >
               <Image src = "replit.png" />
             </MotionBox>
@@ -112,6 +120,8 @@ const Social = () => {
               transition={{
                 duration :.7,
               delay : .8           }}
+
+              onClick = {() => {location.href = "https://twitter.com/w_aanchal"}}
             >
 
               <Image src="tweet.png" height = "17vh" m ="auto" mt="5"  />
@@ -138,6 +148,10 @@ const Social = () => {
               transition={{
                 duration :.7,
                   delay : 1.2      }}
+
+                  onClick={() => {
+                    location.href = "https://discord.gg/vjusDH6X"
+                  }}
             >
                 <Image src ="dc.png" boxSize = "15vh" m= "6" ml ="7"/>
             </MotionBox>
@@ -163,6 +177,10 @@ const Social = () => {
               transition={{
                 duration :.7,
                   delay : 1.5     }}
+
+                  onClick = {() => {
+                    location.href = "https://github.com/69kazu69"
+                  }}
             >
               <Image src="ghl.png" />
             </MotionBox>
