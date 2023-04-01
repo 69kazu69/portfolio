@@ -9,7 +9,7 @@ import { useRouter } from 'next/router'
 
 
 const Main = () => {
-  const color = useColorModeValue("gray.600", "white")
+  const color = useColorModeValue("white","gray.600" )
   let MFlex = motion(Flex)
   const router = useRouter()
 

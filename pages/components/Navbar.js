@@ -8,7 +8,7 @@ import { useRouter } from 'next/router'
 
 const Navbar = () => {
 
-    const color = useColorModeValue( 'gray.500','white')
+    const color = useColorModeValue( 'white','gray.500')
     const { colorMode, toggleColorMode } = useColorMode()
     
     let MFlex = motion(Flex);

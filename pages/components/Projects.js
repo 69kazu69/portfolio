@@ -15,9 +15,9 @@ const Projects = () => {
 
 
   const bg = useColorModeValue( 'gray.700','gray.800')
-  let color = useColorModeValue("gray.200", "white")
-  let btncolor = useColorModeValue("gray.700", "white")
-  let border = useColorModeValue("gray.900" ,"gray.800")
+  let color = useColorModeValue( "white","gray.200")
+  let btncolor = useColorModeValue( "white","gray.700")
+  let border = useColorModeValue("gray.800","gray.900")
   let MBox = motion(Box)
   let MDivider = motion(Divider)
 

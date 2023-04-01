@@ -3,7 +3,7 @@ import {Flex, Text, useColorModeValue , Divider, Image} from "@chakra-ui/react"
 import {motion} from "framer-motion"
 
 const ProjectHeading = () => {
-    const color = useColorModeValue( 'gray.500','white')
+    const color = useColorModeValue( 'white','gray.500')
 
     let MText = motion(Text)
     let MDivider = motion(Divider)

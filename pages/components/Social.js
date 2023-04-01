@@ -7,7 +7,7 @@ const Social = () => {
 
   let MotionBox = motion(Box)
 
-  let bg = useColorModeValue("gray.200", "gray.900")
+  let bg = useColorModeValue( "gray.900","gray.200")
   return (
     <Flex direction="column" justify="center" align="center" id="main-social">
       
