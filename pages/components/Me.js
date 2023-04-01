@@ -3,7 +3,7 @@ import {Flex, Button, useColorMode, Heading, Text, useColorModeValue, IconButton
 import {motion} from "framer-motion"
 
 const Me = () => {
-    const color = useColorModeValue("gray.600", "white")
+    const color = useColorModeValue("white","gray.600")
   let MFlex = motion(Flex)
   let MBox = motion(Box)
   let bg = useColorModeValue("gray.200", "gray.900")
