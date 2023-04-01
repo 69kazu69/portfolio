@@ -27,28 +27,13 @@ const ProjectHeading = () => {
         }}
         
         >
-            ✨Projects
+            <p class="phover-underline-animation">✨Projects</p>
         </MText>
         
         
     </Flex>
     <Flex justify="center" mb="10">
-    <MDivider  ml={10}
-
-    initial={{
-      width : "0%"
-     }}
-     
-     animate={{
-       width : "40%"
-     }}
-
-     transition={{
-       duration : 2
-     }}
-     
-     
-     />
+    
     </Flex>
     </>
   )

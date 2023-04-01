@@ -5,7 +5,7 @@ import Projects from './components/Projects'
 
 const projects = () => {
   return (
-    <div>
+    <div id="pmain">
         <Navbar />
         <ProjectHeading/>
         <Projects/>

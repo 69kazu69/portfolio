@@ -35,14 +35,14 @@ const Navbar = () => {
    
    
    >
-       <Heading ml ={50} color = {color}>PortFolio.✨</Heading>
-       <Flex  justify="center" width="100%"> 
-        <Button onClick={() => router.push("/")} variant="ghost" color = {color}>Home</Button>
-        <Button onClick={() => router.push("/projects")} variant="ghost"  color = {color} ml = {10}>Projects</Button>
-        <Button onClick={() => router.push("/AboutMe")} variant="ghost"  color = {color} ml = {10}>About Me</Button>
+       <Heading ml ="5vw" color = {color}>PortFolio.✨</Heading>
+       <Flex  justify="center" ml="-12vw"> 
+        <Button id="nbtn"  onClick={() => router.push("/")} variant="ghost" color = {color}><p  class="hover-underline-animation nt">Home</p></Button>
+        <Button id="nbtn" onClick={() => router.push("/projects")} variant="ghost"  color = {color} ml = {10}><p  class="hover-underline-animation nt">Projects</p></Button>
+        <Button id="nbtn" onClick={() => router.push("/AboutMe")} variant="ghost"  color = {color} ml = {10}><p  class="hover-underline-animation nt">About Me</p></Button>
        </Flex>
        <div mx={5}>
-       <IconButton onClick={toggleColorMode} mx={5} variant = "ghost">
+       <IconButton onClick={toggleColorMode} mx={5} variant = "ghost" id="mode">
         {colorMode === 'light' ? (<StarIcon/>) :(<SunIcon/>)}
       </IconButton>
        </div>

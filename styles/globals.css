@@ -17,3 +17,142 @@ a {
 body::-webkit-scrollbar {
   display: none;
 }
+#main{
+  width: 90vw !important;
+}
+#main-text{
+  width: 30vw !important;
+}
+#card-image{
+  height: 15vh !important;
+}
+#card{
+height: 10vw !important;
+}
+#main-social{
+  margin-right: -20vw !important;
+}
+#btn{
+  margin-top: none !important;
+  font-size: 12px !important;
+}
+#mbox{
+  padding: 1vw;
+}
+#dtext{
+  padding: 1vw;
+}
+
+.hover-underline-animation {
+ 
+  position: relative;
+  
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  margin-top: 2px !important;
+  left: 0;
+  background-color: #718096;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.phover-underline-animation {
+ 
+  position: relative;
+  border-bottom: 1px #718096 solid ;
+  border-width: 120;
+  
+}
+
+.phover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  margin-top: 2px !important;
+  left: 0;
+  background-color: #718096;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  padding: 2px;
+}
+
+
+.phover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#nbtn:hover{
+  background: none !important;
+}
+#nbtn:focus{
+  box-shadow: none !important;
+}
+.nt{
+  padding-bottom: 2px !important;
+}
+
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 1.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  
+  100% { transform: rotate( 0.0deg) }
+}
+#intro{
+  overflow: visible;
+}
+
+#main-text{
+  margin-right: -5vw !important;
+}
+#main{
+padding-left: 5vw !important;
+padding-right: 10vw !important;
+}
+.chakra-ui-dark{
+  background-image: url(../public/bg-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.chakra-ui-light{
+  background-image: url(../public/bg-image-light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#pmain{
+  margin-top: -4vh !important;
+padding-top: 4vh;
+background-image: url(../public/bg-2.jpg);
+background-repeat: no-repeat;
+  background-size: cover;
+}
+#mode{
+  visibility: hidden;
+}

@@ -9,10 +9,10 @@ const Social = () => {
 
   let bg = useColorModeValue("gray.200", "gray.900")
   return (
-    <Flex direction="column" justify="center" align="center" >
+    <Flex direction="column" justify="center" align="center" id="main-social">
       
-        <Flex  height="25vh"  >
-            <MotionBox boxShadow='xl' my={5} bg = {bg} w="10vw" borderRadius="2rem"
+        <Flex   >
+            <MotionBox id="card" boxShadow='xl' my={5} bg = {bg} w="10vw" borderRadius="2rem"
 
 onClick={() => location.href = "https://www.linkedin.com/in/aanchal-walia-85294021a/"}
             
@@ -39,7 +39,7 @@ onClick={() => location.href = "https://www.linkedin.com/in/aanchal-walia-852940
             >
               <Image src ="link.png" />
             </MotionBox>
-            <MotionBox boxShadow='xl'  m={5} bg = {bg} w="10vw" borderRadius="2rem"
+            <MotionBox id="card" boxShadow='xl'  m={5} bg = {bg} w="10vw" borderRadius="2rem"
             
             whileHover={{ scale: 1.1,
               transition : {
@@ -67,7 +67,7 @@ onClick={() => location.href = "https://www.linkedin.com/in/aanchal-walia-852940
               <Image src="gmail.png" />
 
             </MotionBox>
-            <MotionBox boxShadow='xl' m={5} bg = {bg} w="10vw" borderRadius="2rem"
+            <MotionBox id="card" boxShadow='xl' m={5} bg = {bg} w="10vw" borderRadius="2rem"
             
             whileHover={{ scale: 1.1,
             transition : {
@@ -99,7 +99,7 @@ onClick={() => location.href = "https://www.linkedin.com/in/aanchal-walia-852940
             </MotionBox>
         </Flex>
         <Flex  height="25vh" mr={50} >
-            <MotionBox boxShadow='xl'  m={5} bg = {bg} w="10vw" borderRadius="2rem"
+            <MotionBox id="card" boxShadow='xl'  m={5} bg = {bg} w="10vw" borderRadius="2rem"
             
             whileHover={{ scale: 1.1,
               transition : {
@@ -124,10 +124,10 @@ onClick={() => location.href = "https://www.linkedin.com/in/aanchal-walia-852940
               onClick = {() => {location.href = "https://twitter.com/w_aanchal"}}
             >
 
-              <Image src="tweet.png" height = "17vh" m ="auto" mt="5"  />
+              <Image src="tweet.png" height = "9vw" m ="auto"   />
 
             </MotionBox>
-            <MotionBox boxShadow='xl' m={5} bg = {bg} w="10vw" borderRadius="2rem"
+            <MotionBox id="card" boxShadow='xl' m={5} bg = {bg} w="10vw" borderRadius="2rem"
             
             whileHover={{ scale: 1.1,
               transition : {
@@ -153,9 +153,9 @@ onClick={() => location.href = "https://www.linkedin.com/in/aanchal-walia-852940
                     location.href = "https://discord.gg/vjusDH6X"
                   }}
             >
-                <Image src ="dc.png" boxSize = "15vh" m= "6" ml ="7"/>
+                <Image src ="dc.png" boxSize = "9vw" m={2} />
             </MotionBox>
-            <MotionBox boxShadow='xl' m={5} bg = {bg} w="10vw" borderRadius="2rem"
+            <MotionBox id="card" boxShadow='xl' m={5} bg = {bg} w="10vw" borderRadius="2rem"
             
             whileHover={{ scale: 1.1,
               transition : {
@@ -182,7 +182,7 @@ onClick={() => location.href = "https://www.linkedin.com/in/aanchal-walia-852940
                     location.href = "https://github.com/69kazu69"
                   }}
             >
-              <Image src="ghl.png" />
+              <Image  src="ghl.png" />
             </MotionBox>
         </Flex>
         
