@@ -61,6 +61,7 @@ height: 10vw !important;
   background-color: #ffffff;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
+  border-radius: 2px;
 }
 
 
