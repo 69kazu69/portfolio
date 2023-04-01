@@ -71,9 +71,7 @@ height: 10vw !important;
 .phover-underline-animation {
  
   position: relative;
-  border-bottom: 1px #718096 solid ;
-  border-width: 120;
-  
+  border-bottom: 1px solid;
 }
 
 .phover-underline-animation::after {

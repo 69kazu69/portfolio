@@ -35,7 +35,7 @@ const Main = () => {
 
         </div>
         <MFlex align="center">
-          <Button rightIcon={<ArrowForwardIcon />} width="120px" mr = {25} my={25} color = {color} variant = "solid" label = "Explore" onClick={() => router.push("/projects")}>Explore</Button>
+          <Button rightIcon={<ArrowForwardIcon />} width="120px" mr = {25} my={25} color = "black" variant = "solid" label = "Explore" onClick={() => router.push("/projects")}>Explore</Button>
           
     </MFlex>
     <div>
