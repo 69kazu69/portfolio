@@ -14,7 +14,7 @@ const Projects = () => {
 
 
 
-  const bg = useColorModeValue( 'gray.700','gray.800')
+  const bg = useColorModeValue( 'gray.800','gray.700')
   let color = useColorModeValue( "white","gray.200")
   let btncolor = useColorModeValue( "gray.700","white")
   let border = useColorModeValue("gray.900","gray.800")
