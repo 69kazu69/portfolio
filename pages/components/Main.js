@@ -27,7 +27,7 @@ const Main = () => {
       duration : 1.5
     }}>
         <div> 
-        <Heading as='h1' size='3xl' isTruncated mb = {10} py={1} id="intro"> Hi ! I am Aanchal.<span class="wave">👋</span></Heading>
+        <Heading as='h1' size='3xl' isTruncated mb = {10} py={1} id="intro"> Hi ! I am Aanchal.<span className="wave">👋</span></Heading>
         <Text fontSize='4xl' mt={3} mb={3}> I am a Web Developer.💻</Text>
         <Text fontSize='md' width='500px'>I am a Developer who likes to create stuff for the web in different frameworks as reactjs, angular, nextjs, d3js etc.
         You can checkout some of my personal projects which consists of webApps, Data-Visualisation with javaScript and also some back-end microservices.

@@ -27,7 +27,7 @@ const ProjectHeading = () => {
         }}
         
         >
-            <p class="phover-underline-animation">✨Projects</p>
+            <p className="phover-underline-animation">✨Projects</p>
         </MText>
         
         

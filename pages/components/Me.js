@@ -30,7 +30,7 @@ const Me = () => {
         
         >
             <Heading>
-                <p class="hover-underline-animation">
+                <p className="hover-underline-animation">
                 About Me</p>
                 <Divider/>
             </Heading>
