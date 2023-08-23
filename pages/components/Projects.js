@@ -68,7 +68,7 @@ const Projects = () => {
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
                 <Text mt="5">
-                  {"<> Web </>"}
+                  {"Web Project"}
                 </Text>
                 <Divider width="80%" colorScheme={border} />
                 <Text fontSize = "xl" m = "5">
@@ -119,7 +119,7 @@ const Projects = () => {
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
                 <Text mt="5">
-                  {"<> Web </>"}
+                  {"Web Project"}
                 </Text>
                 <Divider width="80%" colorScheme={border} />
                 <Text fontSize = "xl" m = "5">
@@ -164,7 +164,7 @@ const Projects = () => {
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
                 <Text mt="5">
-                  {"<> Web </>"}
+                  {"Web Project"}
                 </Text>
                 <Divider width="80%" colorScheme={border} />
                 <Text fontSize = "xl" m = "5">
@@ -211,7 +211,7 @@ const Projects = () => {
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
                 <Text mt="5">
-                  {"<> Web </>"}
+                  {"Web Project"}
                 </Text>
                 <Divider width="80%" colorScheme={border} />
                 <Text fontSize = "xl" m = "5">
@@ -259,7 +259,7 @@ const Projects = () => {
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
                 <Text mt="5">
-                  {"<> Web </>"}
+                  {"Web Project"}
                 </Text>
                 <Divider width="80%" colorScheme={border} />
                 <Text fontSize = "xl" m = "5">
@@ -306,7 +306,7 @@ const Projects = () => {
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
                 <Text mt="5">
-                  {"<> Web </>"}
+                  {"Web Project"}
                 </Text>
                 <Divider width="80%" colorScheme={border} />
                 <Text fontSize = "xl" m = "5">
@@ -352,7 +352,7 @@ const Projects = () => {
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
                 <Text mt="5">
-                  {"<> Web </>"}
+                  {"Web Project"}
                 </Text>
                 <Divider width="80%" colorScheme={border} />
                 <Text fontSize = "xl" m = "5">
@@ -400,7 +400,7 @@ const Projects = () => {
           >
             <Flex fontSize="4xl" direction = "column" align="center" >
                 <Text mt="5">
-                  {"<> Web </>"}
+                  {"Web Project"}
                 </Text>
                 <Divider width="80%" colorScheme={border} />
                 <Text fontSize = "xl" m = "5">
