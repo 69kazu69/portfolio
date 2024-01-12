@@ -12,7 +12,7 @@ export default function Home() {
   let MImage = motion(Image)
 
   return (
-    <div >
+    <div id="hmain">
     
       <Navbar/>
     <Flex justify="space-between" id="main">
